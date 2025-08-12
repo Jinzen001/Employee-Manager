@@ -1,6 +1,7 @@
 package com.litmus7.employeemanager.constants;
 
 public class MessageConstants {
+    public static final String DATABASE_ERROR = "Database error: ";
 
     public static final String EMPLOYEE_CREATED_SUCCESS = "Employee created successfully.";
     public static final String EMPLOYEE_RETRIEVED_SUCCESS = "Employee retrieved successfully.";
