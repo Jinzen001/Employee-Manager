@@ -12,7 +12,6 @@ import java.util.List;
 
 public class EmployeeController {
 
-    private static final String DATABASE_ERROR = null;
 	private final EmployeeService service = new EmployeeService();
 
     public Response<String> createEmployee(Employee employee) {
@@ -39,6 +38,7 @@ public class EmployeeController {
             }
             return new Response<>("SUCCESS", EMPLOYEE_RETRIEVED_SUCCESS, employees);
         } catch (SQLException e) {
+        	
             return new Response<>("ERROR", DATABASE_ERROR + e.getMessage(), null);
         }
     }
