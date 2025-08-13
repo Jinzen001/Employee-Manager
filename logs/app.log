@@ -1,0 +1,10 @@
+2025-08-13 12:46:11 [main] INFO  com.litmus7.employeemanager.dao.EmployeeDAO - JDBC Driver loaded successfully.
+2025-08-13 12:46:11 [main] INFO  com.litmus7.employeemanager.dao.EmployeeDAO - Total employees fetched: 5
+2025-08-13 13:05:57 [main] INFO  com.litmus7.employeemanager.service.EmployeeService - Fetching all employees
+2025-08-13 13:05:58 [main] INFO  com.litmus7.employeemanager.dao.EmployeeDAO - JDBC Driver loaded successfully.
+2025-08-13 13:05:58 [main] INFO  com.litmus7.employeemanager.dao.EmployeeDAO - Total employees fetched: 5
+2025-08-13 13:05:58 [main] INFO  com.litmus7.employeemanager.service.EmployeeService - Retrieved 5 employees
+2025-08-13 13:06:05 [main] INFO  com.litmus7.employeemanager.service.EmployeeService - Fetching employee with ID: 1
+2025-08-13 13:06:06 [main] INFO  com.litmus7.employeemanager.service.EmployeeService - Employee found: com.litmus7.employeemanager.dto.Employee@616fe72b
+2025-08-13 13:06:12 [main] INFO  com.litmus7.employeemanager.service.EmployeeService - Attempting to delete employee with ID: 1
+2025-08-13 13:06:12 [main] INFO  com.litmus7.employeemanager.service.EmployeeService - Employee deletion successful for ID: 1
